@@ -44,3 +44,8 @@ CLTV,
 ChurnReason)
 SET TotalCharges =
 NULLIF(TRIM(@TotalCharges), '');
+
+/*
+The 'active' column is of type TINYINT.
+Values were converted to 1/0 to handle type mismatch errors during data import.
+*/
