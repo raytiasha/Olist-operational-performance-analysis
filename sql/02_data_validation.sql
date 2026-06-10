@@ -3,7 +3,8 @@
   errors. LOAD DATA INFILE provides better control over data transformations during import, allowing blank values to be converted to NULL using NULLIF(), thereby 
   ensuring complete and accurate loading of the dataset.
   */
-  SHOW VARIABLES LIKE 'secure_file_priv';
+
+SHOW VARIABLES LIKE 'secure_file_priv';
 C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/olist_orders_dataset.csv'
