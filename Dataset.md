@@ -29,3 +29,15 @@
 | How has demand changed over time?                    | orders           | order_purchase_timestamp |
 | Which fulfillment stages contribute to delays?       | orders           | purchase date, approval date, carrier date, delivery date, estimated date |
 | How do delays affect customer satisfaction?          | orders + reviews | delay information + review score |
+
+
+---
+
+
+| Column                  | Meaning                        |
+| ----------------------- | ------------------------------ |
+| purchase_timestamp      | Customer placed order          |
+| approved_at             | Payment approved               |
+| delivered_carrier_date  | Seller handed order to carrier |
+| delivered_customer_date | Customer received order        |
+| estimated_delivery_date | Promised delivery date         |
