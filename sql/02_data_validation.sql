@@ -1,5 +1,7 @@
 /*
-  The MySQL Import Wizard was unable to correctly handle blank values in TIMESTAMP columns, causing valid records to be rejected with "Incorrect datetime value" errors. LOAD DATA INFILE provides better control over data transformations during import, allowing blank values to be converted to NULL using NULLIF(), thereby ensuring complete and accurate loading of the dataset.
+  The MySQL Import Wizard was unable to correctly handle blank values in TIMESTAMP columns, causing valid records to be rejected with "Incorrect datetime value" 
+  errors. LOAD DATA INFILE provides better control over data transformations during import, allowing blank values to be converted to NULL using NULLIF(), thereby 
+  ensuring complete and accurate loading of the dataset.
   */
   SHOW VARIABLES LIKE 'secure_file_priv';
 C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\
