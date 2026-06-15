@@ -14,6 +14,43 @@
   HAVING COUNT(*) > 1;
 
   0 rows returned => No duplicate orders.
+
+  --- Check missing timestamps
+
+SELECT
+COUNT(*)
+FROM orders
+WHERE order_purchase_timestamp IS NULL;
+
+Output: 0
+  
+SELECT
+COUNT(*)
+FROM orders
+WHERE order_approved_at IS NULL;
+
+Output: 160
+
+SELECT
+COUNT(*)
+FROM orders
+WHERE order_delivered_carrier_date IS NULL;
+
+Output: 1783
+
+SELECT
+COUNT(*)
+FROM orders
+WHERE order_delivered_customer_date IS NULL;
+
+Output: 2965
+
+SELECT
+COUNT(*)
+FROM orders
+WHERE order_estimated_delivery_date IS NULL;
+
+Output: 0
   
   /*
   The MySQL Import Wizard was unable to correctly handle blank values in TIMESTAMP columns, causing valid records to be rejected with "Incorrect datetime value" 
@@ -24,6 +61,8 @@
 SHOW VARIABLES LIKE 'secure_file_priv';
 C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\
 
+--- Load Orders table
+  
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/olist_orders_dataset.csv'
 INTO TABLE orders
 FIELDS TERMINATED BY ','
@@ -51,3 +90,26 @@ SET
         NULLIF(@order_delivered_customer_date, ''),
     order_estimated_delivery_date =
         NULLIF(@order_estimated_delivery_date, '');
+
+--- Load Order Review table
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/olist_order_reviews_dataset.csv'
+INTO TABLE order_reviews
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(
+    review_id,
+    order_id,
+    review_score,
+    review_comment_title,
+    review_comment_message,
+    @review_creation_date,
+    @review_answer_timestamp
+)
+SET
+    review_creation_date = NULLIF(@review_creation_date,''),
+    review_answer_timestamp = NULLIF(@review_answer_timestamp,'');
