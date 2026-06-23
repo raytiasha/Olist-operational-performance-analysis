@@ -104,4 +104,4 @@ Based on these findings, operational improvement efforts should prioritize logis
 ---
 
 - For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
-- Reach out to me on [LinkedIn](www.linkedin.com/in/raytiasha).
+- Reach out to me on [LinkedIn](https://www.linkedin.com/in/raytiasha).
