@@ -14,7 +14,7 @@ The primary stakeholder for this project is the Operations Manager, who is respo
 The business questions and supporting KPIs that guide this analysis are outlined [here](https://github.com/raytiasha/WIP_Project/blob/main/Business%20Questions%20and%20KPIs.md).
 
 ## Executive Summary
-Demand grew rapidly during 2017, almost ninefold between January and November 2017, reflecting a period of rapid marketplace growth. Then became more stableand predictable during 2018, indicating that the platform had transitioned from a rapid growth phase to a more mature operating environment.
+Demand grew rapidly during 2017, almost ninefold between January and November 2017. Then became more stableand predictable during 2018, indicating that the platform had transitioned from a rapid growth phase to a more mature operating environment. Despite this growth, delivery performance remained relatively stable. While higher demand did not consistently result in slower deliveries, major demand spikes, particularly in November 2017, coincided with longer delivery times. This suggests that sudden surges in order volume may temporarily strain operational capacity.
 
 ## Dataset Structure
 
