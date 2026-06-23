@@ -1,3 +1,5 @@
+--- Demand Pattern Analysis
+
 SELECT
     YEAR(order_purchase_timestamp) AS order_year,
     MONTH(order_purchase_timestamp) AS order_month,
@@ -9,6 +11,8 @@ GROUP BY
 ORDER BY
     order_year,
     order_month;
+
+--- Order Volume vs. Average Delivery Time Analysis
 
 SELECT
     YEAR(order_purchase_timestamp) AS order_year,
