@@ -14,7 +14,7 @@ The primary stakeholder for this project is the Operations Manager, who is respo
 The business questions and supporting KPIs that guide this analysis are outlined [here](https://github.com/raytiasha/WIP_Project/blob/main/Business%20Questions%20and%20KPIs.md).
 
 ## Executive Summary
-Demand grew rapidly during 2017, almost ninefold between January and November 2017. Then became more stableand predictable during 2018, indicating that the platform had transitioned from a rapid growth phase to a more mature operating environment. Despite this growth, delivery performance remained relatively stable. While higher demand did not consistently result in slower deliveries, major demand spikes, particularly in November 2017, coincided with longer delivery times. This suggests that sudden surges in order volume may temporarily strain operational capacity.
+Demand grew rapidly during 2017, almost ninefold between January and November 2017. Then became more stableand predictable during 2018, indicating that the platform had transitioned from a rapid growth phase to a more mature operating environment. Despite this growth, delivery performance remained relatively stable. While higher demand did not consistently result in slower deliveries, major demand spikes, particularly in November 2017, coincided with longer delivery times. This suggests that sudden surges in order volume may temporarily strain operational capacity. Shipping was the primary driver of delivery delays throughout the fulfillment process. While seller fulfillment times increased slightly during peak-demand periods, the largest increases in delivery time were caused by longer shipping durations. Operational performance improved significantly from April 2018 onward, largely due to improvements in logistics efficiency.
 
 ## Dataset Structure
 
@@ -38,7 +38,7 @@ Demand grew rapidly during 2017, almost ninefold between January and November 20
 
 #### Delayed Delivery Rate
 - Order approval remained consistently below one day throughout the analysis period and did not contribute meaningfully to overall delivery delays.
-- Seller fulfillment times increased modestly during peak-demand periods, but remained a relatively small component of the total delivery cycle.
+- Seller fulfillment times increased by 1 day during peak-demand periods, but remained a relatively small component of the total delivery cycle.
 - Shipping was the primary operational bottleneck, consistently accounting for the largest share of delivery time across all periods.
 - During the November 2017 demand surge, shipping time increased by over 2.5 days compared to the previous month, indicating that logistics operations were more affected by peak demand than seller fulfillment processes.
 - Delivery performance improved substantially from April 2018 onward, driven primarily by reductions in shipping duration rather than changes in approval or fulfillment times.
