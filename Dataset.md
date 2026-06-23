@@ -3,7 +3,7 @@
 | orders           | Order lifecycle dates and status              |
 | customers        | Customer information                          |
 | order_items      | Products within orders                        |
-| products         | Product metadata                              |
+| products         | Product details                              |
 | sellers          | Seller information                            |
 | order_reviews    | Customer ratings                              |
 | order_payments   | Payment information                           |
@@ -32,19 +32,6 @@
 | order_delivered_carrier_date  | Seller hands package to carrier |
 | order_delivered_customer_date | Customer receives order        |
 | order_estimated_delivery_date | Promised delivery date         |
-
-
----
-
-
-| Table         | Primary Purpose        | Key Column           |
-| ------------- | ---------------------- | -------------------- |
-| orders        | Order lifecycle        | order_id             |
-| order_reviews | Customer feedback      | review_id / order_id |
-| customers     | Customer information   | customer_id          |
-| sellers       | Seller information     | seller_id            |
-| order_items   | Products within orders | order_id             |
-| products      | Product details        | product_id           |
 
 
 ---
