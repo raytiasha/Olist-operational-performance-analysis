@@ -4,7 +4,7 @@
 
 #### Table of Contents
 
-Project Background
+[Project Background]((#project-background))
 Executive Summary
 Dataset Structure
 Insights Summary
@@ -69,6 +69,8 @@ Based on these findings, operational improvement efforts should prioritize logis
 - **Investigate potential seasonal demand patterns by analyzing additional years of order data to determine whether the November demand spike represents a recurring trend.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
 - **Strengthen logistics capacity planning during peak-demand periods and prioritize carrier performance improvements, as shipping was identified as the primary contributor to delivery delays.** Establishing performance monitoring for logistics partners and preparing for demand surges can help mitigate delivery disruptions.
 - **Reduce delivery delays as a core operational objective, as customer satisfaction declines significantly with increasing delay duration.** Particular focus should be placed on preventing delays exceeding four days, where customer ratings drop sharply and customer experience is most negatively affected.
+
+---
 
 ## Clarifying Questions, Assumptions, and Caveats
 
