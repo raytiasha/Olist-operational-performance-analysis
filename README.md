@@ -2,18 +2,17 @@
 
 ### The goal of this project is to identify operational bottlenecks across order processing, seller fulfillment, and delivery execution in order to reduce delivery delays, improve customer satisfaction, and prioritize operational improvement initiatives.
 
-#### Table of Contents
-
-[Project Background]((#project-background))
+### Table of Contents
+* [Project Background](#project-background)
 * [Executive Summary](#executive-summary)
 * [Dataset Structure](#dataset-structure)
 * [Insights Summary](#insights-summary)
-Monthly Order Volume
-Average Delivery Time
-Delayed Delivery Rate
-Average Review Score
-Recommendations
-Clarifying Questions, Assumptions, and Caveats
+    * [Monthly Order Volume](#monthly-order-volume)
+    * [Average Delivery Time](#average-delivery-time)
+    * [Delayed Delivery Rate](#delayed-delivery-rate)
+    * [Average Review Score](#average-review-score)
+* [Recommendations](#recommendations)
+* [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
 
 ## Project Background
 
