@@ -14,7 +14,13 @@ The primary stakeholder for this project is the Operations Manager, who is respo
 The business questions and supporting KPIs that guide this analysis are outlined [here](https://github.com/raytiasha/WIP_Project/blob/main/Business%20Questions%20and%20KPIs.md).
 
 ## Executive Summary
-Demand grew rapidly during 2017, almost ninefold between January and November 2017. Then became more stableand predictable during 2018, indicating that the platform had transitioned from a rapid growth phase to a more mature operating environment. Despite this growth, delivery performance remained relatively stable. While higher demand did not consistently result in slower deliveries, major demand spikes, particularly in November 2017, coincided with longer delivery times. This suggests that sudden surges in order volume may temporarily strain operational capacity. Shipping was the primary driver of delivery delays throughout the fulfillment process. While seller fulfillment times increased slightly during peak-demand periods, the largest increases in delivery time were caused by longer shipping durations. Operational performance improved significantly from April 2018 onward, largely due to improvements in logistics efficiency.
+Order demand grew rapidly throughout 2017, increasing nearly ninefold between January and November before stabilizing at consistently higher levels during 2018. Despite this significant growth, delivery performance remained relatively stable overall, indicating that operations generally scaled effectively with increasing demand. However, major demand surges, particularly in November 2017, coincided with longer delivery times, suggesting that sudden spikes in order volume can place temporary strain on operational capacity.
+
+A breakdown of the fulfillment process revealed that shipping was the primary contributor to overall delivery time and the main driver of delays during peak-demand periods. While seller fulfillment times increased slightly when demand surged, the largest increases in delivery duration were caused by longer shipping times. Improvements in delivery performance observed from April 2018 onward were largely driven by reductions in shipping duration, highlighting logistics efficiency as a key operational lever.
+
+Customer satisfaction was strongly linked to delivery performance. On-time deliveries achieved an average review score of 4.29, while orders delayed by more than eight days received an average score of only 1.71. Customer ratings declined consistently as delivery delays increased, demonstrating that reliable delivery performance plays a critical role in maintaining a positive customer experience.
+
+Based on these findings, operational improvement efforts should prioritize logistics performance, shipping capacity planning during peak-demand periods, and initiatives that reduce delivery delays to improve customer satisfaction.
 
 ## Dataset Structure
 
@@ -42,9 +48,17 @@ Demand grew rapidly during 2017, almost ninefold between January and November 20
 - Shipping was the primary operational bottleneck, consistently accounting for the largest share of delivery time across all periods.
 - During the November 2017 demand surge, shipping time increased by over 2.5 days compared to the previous month, indicating that logistics operations were more affected by peak demand than seller fulfillment processes.
 - Delivery performance improved substantially from April 2018 onward, driven primarily by reductions in shipping duration rather than changes in approval or fulfillment times.
+
+#### Average Review Score
+- On-time deliveries received the highest customer satisfaction scores, averaging 4.29 out of 5.
+- Even short delays of 1–3 days reduced average review scores by approximately 23%, from 4.29 to 3.29.
+- Customer satisfaction declines consistently as delivery delays become more severe, indicating a strong negative relationship between delivery performance and customer experience.
+- Orders delayed by more than eight days received an average review score of only 1.71, less than half the score of on-time deliveries.
   
 ## Recommendations
-- Additional years of data should be analyzed to determine whether the November spike represents a recurring seasonal pattern.
+- **Investigate potential seasonal demand patterns by analyzing additional years of order data to determine whether the November demand spike represents a recurring trend.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
+- **Strengthen logistics capacity planning during peak-demand periods and prioritize carrier performance improvements, as shipping was identified as the primary contributor to delivery delays.** Establishing performance monitoring for logistics partners and preparing for demand surges can help mitigate delivery disruptions.
+- **Reduce delivery delays as a core operational objective, as customer satisfaction declines significantly with increasing delay duration.** Particular focus should be placed on preventing delays exceeding four days, where customer ratings drop sharply and customer experience is most negatively affected.
 
 ---
 View the source data [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and the table details [here](https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Dataset.md).
