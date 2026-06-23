@@ -1,4 +1,4 @@
-### Tables information
+### Dataset Tables Overview
 
 | Table            | Purpose                                       |
 | ---------------- | --------------------------------------------- |
@@ -18,17 +18,3 @@
 ### Order Lifecycle
 
 Order Purchased -> Payment Approved -> Carrier Pickup -> Customer Delivery
-
-
----
-
-### Breakdown of Orders table
-
-
-| Column                  | Business Meaning                        |
-| ----------------------- | ------------------------------ |
-| order_purchase_timestamp      | Customer places order          |
-| order_approved_at             | Payment approved               |
-| order_delivered_carrier_date  | Seller hands package to carrier |
-| order_delivered_customer_date | Customer receives order        |
-| order_estimated_delivery_date | Promised delivery date         |
