@@ -2,8 +2,18 @@
 
 ### The goal of this project is to identify operational bottlenecks across order processing, seller fulfillment, and delivery execution in order to reduce delivery delays, improve customer satisfaction, and prioritize operational improvement initiatives.
 
-Table of Contents
+#### Table of Contents
 
+Project Background
+Executive Summary
+Dataset Structure
+Insights Summary
+Monthly Order Volume
+Average Delivery Time
+Delayed Delivery Rate
+Average Review Score
+Recommendations
+Clarifying Questions, Assumptions, and Caveats
 
 ## Project Background
 
@@ -60,9 +70,37 @@ Based on these findings, operational improvement efforts should prioritize logis
 - **Strengthen logistics capacity planning during peak-demand periods and prioritize carrier performance improvements, as shipping was identified as the primary contributor to delivery delays.** Establishing performance monitoring for logistics partners and preparing for demand surges can help mitigate delivery disruptions.
 - **Reduce delivery delays as a core operational objective, as customer satisfaction declines significantly with increasing delay duration.** Particular focus should be placed on preventing delays exceeding four days, where customer ratings drop sharply and customer experience is most negatively affected.
 
+## Clarifying Questions, Assumptions, and Caveats
+
+### Questions for Stakeholders prior to analysis
+
+- **Clarifying Questions**
+
+- How does the business define a delivery delay: delivery after the estimated delivery date or delivery beyond a specific service-level target?
+- Are all logistics partners expected to meet the same delivery standards across regions?
+- Should customer satisfaction be evaluated solely through review scores, or should review comments also be considered?
+- Are seasonal demand patterns already known by the business, or is identifying seasonality part of the analysis objective?
+
+- **Assumptions**
+- Only orders with a delivered status were included in delivery performance analyses.
+- Customer review scores are assumed to be a reasonable proxy for overall customer satisfaction.
+- Delivery delays were measured as deliveries occurring after the estimated delivery date provided to customers.
+- Timestamps recorded in the dataset are assumed to be accurate and consistently captured across all orders.
+- September and October 2018 were excluded from demand trend interpretation due to incomplete data.
+
+- **Caveats & Limitations**
+- The dataset covers approximately two years of activity, limiting the ability to confirm long-term seasonal patterns.
+- Review scores may be influenced by factors beyond delivery performance, such as product quality, pricing, packaging, or seller communication.
+- The analysis identifies relationships between delivery performance and customer satisfaction but does not establish direct causation.
+- Shipping was identified as the largest contributor to delivery time; however, the dataset does not provide detailed carrier-level information to determine the root causes of shipping delays.
+- Geographic factors such as customer location, distance, and regional infrastructure were not included in this analysis and may influence delivery performance.
+
 ---
+
 View the source data [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and the table details [here](https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Dataset.md).
+See my SQL queries [here](https://github.com/raytiasha/Olist-operational-performance-analysis/tree/main/sql).
 
 ---
 
-For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
+- For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
+- Reach out to me on [LinkedIn](www.linkedin.com/in/raytiasha).
