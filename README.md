@@ -5,9 +5,9 @@
 #### Table of Contents
 
 [Project Background]((#project-background))
-Executive Summary
-Dataset Structure
-Insights Summary
+* [Executive Summary](#executive-summary)
+* [Dataset Structure](#dataset-structure)
+* [Insights Summary](#insights-summary)
 Monthly Order Volume
 Average Delivery Time
 Delayed Delivery Rate
