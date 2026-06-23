@@ -27,7 +27,6 @@ Demand grew rapidly during 2017, almost ninefold between January and November 20
 
 #### Monthly Order Volume
 - Order demand increased significantly from 324 orders in October 2016 to a peak of 7,544 orders in November 2017. Following this rapid growth period, demand stabilized throughout most of 2018, averaging approximately 6,700 orders per month through August. This trend suggests strong platform adoption and expansion during 2017, followed by a period of more consistent and mature demand levels in 2018.
-- Order volume peaked in November 2017, suggesting a potential seasonal demand surge that warrants further investigation.
 
 ## Recommendations
 - Additional years of data should be analyzed to determine whether the November spike represents a recurring seasonal pattern.
