@@ -22,15 +22,16 @@
 
 
 ---
+From Orders table
 
 
 | Column                  | Meaning                        |
 | ----------------------- | ------------------------------ |
-| purchase_timestamp      | Customer placed order          |
-| approved_at             | Payment approved               |
-| delivered_carrier_date  | Seller handed order to carrier |
-| delivered_customer_date | Customer received order        |
-| estimated_delivery_date | Promised delivery date         |
+| order_purchase_timestamp      | Customer placed order          |
+| order_approved_at             | Payment approved               |
+| order_delivered_carrier_date  | Seller handed order to carrier |
+| order_delivered_customer_date | Customer received order        |
+| order_estimated_delivery_date | Promised delivery date         |
 
 
 ---
