@@ -36,6 +36,13 @@ Demand grew rapidly during 2017, almost ninefold between January and November 20
 - Average delivery times improved substantially from April 2018 onward while order volumes remained consistently high, suggesting improvements in fulfillment and delivery efficiency.
 - Overall, there was no consistent month-to-month relationship between higher order volumes and longer delivery times. However, periods of exceptionally high demand were associated with temporary declines in delivery performance.
 
+#### Delayed Delivery Rate
+- Order approval remained consistently below one day throughout the analysis period and did not contribute meaningfully to overall delivery delays.
+- Seller fulfillment times increased modestly during peak-demand periods, but remained a relatively small component of the total delivery cycle.
+- Shipping was the primary operational bottleneck, consistently accounting for the largest share of delivery time across all periods.
+- During the November 2017 demand surge, shipping time increased by over 2.5 days compared to the previous month, indicating that logistics operations were more affected by peak demand than seller fulfillment processes.
+- Delivery performance improved substantially from April 2018 onward, driven primarily by reductions in shipping duration rather than changes in approval or fulfillment times.
+  
 ## Recommendations
 - Additional years of data should be analyzed to determine whether the November spike represents a recurring seasonal pattern.
 
