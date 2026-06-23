@@ -22,15 +22,15 @@
 
 
 ---
-From Orders table
+### Orders table
 
 
-| Column                  | Meaning                        |
+| Column                  | Business Meaning                        |
 | ----------------------- | ------------------------------ |
-| order_purchase_timestamp      | Customer placed order          |
+| order_purchase_timestamp      | Customer places order          |
 | order_approved_at             | Payment approved               |
-| order_delivered_carrier_date  | Seller handed order to carrier |
-| order_delivered_customer_date | Customer received order        |
+| order_delivered_carrier_date  | Seller hands package to carrier |
+| order_delivered_customer_date | Customer receives order        |
 | order_estimated_delivery_date | Promised delivery date         |
 
 
@@ -50,24 +50,6 @@ From Orders table
 ---
 
 
-| Column                        | Business Meaning         |
-| ----------------------------- | ------------------------ |
-| order_purchase_timestamp      | Customer places order    |
-| order_approved_at             | Payment approved         |
-| order_delivered_carrier_date  | Carrier receives package |
-| order_delivered_customer_date | Customer receives order  |
-| order_estimated_delivery_date | Promised delivery date   |
+### Order Lifecycle
 
-
----
-
-
-Order Lifecycle
-
-Order Purchased
-        ↓
-Payment Approved
-        ↓
-Carrier Pickup
-        ↓
-Customer Delivery
+Order Purchased -> Payment Approved -> Carrier Pickup -> Customer Delivery
