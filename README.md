@@ -12,7 +12,7 @@
     * [Delayed Delivery Rate](#delayed-delivery-rate)
     * [Average Review Score](#average-review-score)
 * [Recommendations](#recommendations)
-* [Clarifying Questions, Assumptions, and Limitations](#clarifying-questions-assumptions-and-limitations)
+* [Assumptions and Limitations](#assumptions-and-limitations)
 
 ## Project Background
 
@@ -69,7 +69,7 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 ---
 
-## Clarifying Questions, Assumptions, and Limitations
+## Assumptions and Limitations
 
 ### Questions for Stakeholders prior to analysis
 
