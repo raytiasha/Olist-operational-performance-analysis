@@ -37,7 +37,7 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 **In order to evaluate operational performance, we focused on the following key metrics:**
 - **Monthly Order Volume:** Tracks changes in demand over time and identifies periods of increased operational workload.
-- **Average Delivery Time & Delayed Delivery Rate:** Measures the efficiency and reliability of the fulfillment and delivery process.
+- **Delivery Cycle Analysis:** Measures the efficiency and reliability of the fulfillment and delivery process.
 - **Average Review Score:** Evaluates customer satisfaction and helps quantify the customer impact of delivery performance.
 
 #### Monthly Order Volume
@@ -45,13 +45,11 @@ Based on these findings, operational improvement efforts should prioritize logis
 - Demand remained relatively stable throughout most of 2018, averaging approximately 6,000–7,500 orders per month.
 - This trend suggests strong platform adoption and expansion during 2017, followed by a period of more consistent and mature demand levels in 2018.
 
-#### Average Delivery Time
+#### Delivery Cycle Analysis
 - Delivery performance remained relatively stable despite significant growth in order volume throughout 2017, suggesting that operations were generally able to scale alongside increasing demand.
 - The sharp increase in order volume during November 2017 coincided with a notable rise in average delivery times of about 3-4 days, indicating that sudden demand surges may place additional strain on operational capacity.
 - Average delivery times improved substantially from April 2018 onward while order volumes remained consistently high, suggesting improvements in fulfillment and delivery efficiency.
 - Overall, there was no consistent month-to-month relationship between higher order volumes and longer delivery times. However, periods of exceptionally high demand were associated with temporary declines in delivery performance.
-
-#### Delayed Delivery Rate
 - Order approval remained consistently below one day throughout the analysis period and did not contribute meaningfully to overall delivery delays.
 - Seller fulfillment times increased by 1 day during peak-demand periods, but remained a relatively small component of the total delivery cycle.
 - Shipping was the primary operational bottleneck, consistently accounting for the largest share of delivery time across all periods.
@@ -65,7 +63,7 @@ Based on these findings, operational improvement efforts should prioritize logis
 - Orders delayed by more than eight days received an average review score of only 1.71, less than half the score of on-time deliveries.
   
 ## Recommendations
-- **Investigate potential seasonal demand patterns by analyzing additional years of order data to determine whether the November demand spike represents a recurring trend.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
+- **Further analysis using additional years of data is recommended to determine whether the November demand spike represents a recurring seasonal pattern.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
 - **Strengthen logistics capacity planning during peak-demand periods and prioritize carrier performance improvements, as shipping was identified as the primary contributor to delivery delays.** Establishing performance monitoring for logistics partners and preparing for demand surges can help mitigate delivery disruptions.
 - **Reduce delivery delays as a core operational objective, as customer satisfaction declines significantly with increasing delay duration.** Particular focus should be placed on preventing delays exceeding four days, where customer ratings drop sharply and customer experience is most negatively affected.
 
