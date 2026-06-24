@@ -12,7 +12,7 @@
     * [Delayed Delivery Rate](#delayed-delivery-rate)
     * [Average Review Score](#average-review-score)
 * [Recommendations](#recommendations)
-* [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
+* [Clarifying Questions, Assumptions, and Limitations](#clarifying-questions-assumptions-and-limitations)
 
 ## Project Background
 
@@ -71,30 +71,20 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 ---
 
-## Clarifying Questions, Assumptions, and Caveats
+## Clarifying Questions, Assumptions, and Limitations
 
 ### Questions for Stakeholders prior to analysis
 
-##### Clarifying Questions
-
-- How does the business define a delivery delay: delivery after the estimated delivery date or delivery beyond a specific service-level target?
-- Are all logistics partners expected to meet the same delivery standards across regions?
-- Should customer satisfaction be evaluated solely through review scores, or should review comments also be considered?
-- Are seasonal demand patterns already known by the business, or is identifying seasonality part of the analysis objective?
-
 ##### Assumptions
-- Only orders with a delivered status were included in delivery performance analyses.
-- Customer review scores are assumed to be a reasonable proxy for overall customer satisfaction.
-- Delivery delays were measured as deliveries occurring after the estimated delivery date provided to customers.
-- Timestamps recorded in the dataset are assumed to be accurate and consistently captured across all orders.
-- September and October 2018 were excluded from demand trend interpretation due to incomplete data.
+- Only delivered orders were included in delivery performance analysis.
+- Review scores were used as a proxy for customer satisfaction.
+- Delivery delays were defined as deliveries completed after the estimated delivery date.
+- September and October 2018 were excluded due to incomplete data.
 
-##### Caveats & Limitations
-- The dataset covers approximately two years of activity, limiting the ability to confirm long-term seasonal patterns.
-- Review scores may be influenced by factors beyond delivery performance, such as product quality, pricing, packaging, or seller communication.
-- The analysis identifies relationships between delivery performance and customer satisfaction but does not establish direct causation.
-- Shipping was identified as the largest contributor to delivery time; however, the dataset does not provide detailed carrier-level information to determine the root causes of shipping delays.
-- Geographic factors such as customer location, distance, and regional infrastructure were not included in this analysis and may influence delivery performance.
+##### Limitations
+- The dataset does not include carrier-level operational details to explain shipping delays.
+- Customer reviews may be influenced by factors beyond delivery performance.
+- The available time period is insufficient to conclusively identify recurring seasonal demand patterns.
 
 ---
 
