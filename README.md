@@ -35,7 +35,7 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 ## Dataset Structure
 
-https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/ERD.png
+<img width="1000" height="800" alt="Untitled design" src= https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/ERD.png'/>
 
 ## Insights Summary
 
