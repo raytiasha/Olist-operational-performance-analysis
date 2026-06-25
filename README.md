@@ -62,7 +62,7 @@ Based on these findings, operational improvement efforts should prioritize logis
 - On-time deliveries received the highest customer satisfaction scores, averaging 4.29 out of 5.
 - Even short delays of 1–3 days reduced average review scores by approximately 23%, from 4.29 to 3.29.
 - Customer satisfaction declines consistently as delivery delays become more severe, indicating a strong negative relationship between delivery performance and customer experience.
-- Orders delayed by more than eight days received an average review score of only 1.71, less than half the score of on-time deliveries.
+- Orders delayed by 8+ days received an average review score of only 1.71, less than half the score of on-time deliveries.
   
 ## Recommendations
 - **Further analysis using additional years of data is recommended to determine whether the November demand spike represents a recurring seasonal pattern.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
