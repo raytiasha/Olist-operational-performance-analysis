@@ -48,14 +48,14 @@ Based on these findings, operational improvement efforts should prioritize logis
 - This trend suggests strong platform adoption and expansion during 2017, followed by a period of more consistent and mature demand levels in 2018.
 
 #### Delivery Cycle Analysis
-- Delivery performance remained relatively stable despite significant growth in order volume throughout 2017, suggesting that operations were generally able to scale alongside increasing demand.
-- The sharp increase in order volume during November 2017 coincided with a notable rise in average delivery times of about 3-4 days, indicating that sudden demand surges may place additional strain on operational capacity.
-- Average delivery times improved substantially from April 2018 onward while order volumes remained consistently high, suggesting improvements in fulfillment and delivery efficiency.
+- As order volume increased from 800 orders in January 2017 to 7,544 orders in November 2017, average delivery time remained relatively stable at approximately 11-13 days throughout most of 2017, indicating that operations generally scaled alongside increasing demand.
+- The November 2017 demand surge coincided with average delivery time increasing from 11.4 days in October to 14.7 days in November, an increase of 3.3 days, suggesting that sudden spikes in demand can temporarily strain operational capacity.
+- Delivery performance worsened in early 2018, with average delivery time peaking at 16.9 days in February 2018. Performance then improved significantly, declining to 7.3 days by August 2018, a reduction of approximately 9.6 days, despite order volumes remaining consistently high at approximately 6,000–7,000 orders per month. This improvement was driven primarily by logistics efficiency, as average shipping duration decreased from 12.9 days in February 2018 to 4.9 days in August 2018, a reduction of approximately 8 days, while approval and seller fulfillment times remained relatively stable.
 - Overall, there was no consistent month-to-month relationship between higher order volumes and longer delivery times. However, periods of exceptionally high demand were associated with temporary declines in delivery performance.
-- Order approval remained consistently below one day throughout the analysis period and did not contribute meaningfully to overall delivery delays.
-- Seller fulfillment times increased by 1 day during peak-demand periods, but remained a relatively small component of the total delivery cycle.
+- Order approval remained consistently below 0.5 days throughout the analysis period and did not contribute meaningfully to delivery delays.
+- Seller fulfillment time increased from 2.6 days in October 2017 to 3.1 days in November 2017, an  increase of approximately 0.6 days, and remained a relatively small component of the overall delivery cycle.
 - Shipping was the primary operational bottleneck, consistently accounting for the largest share of delivery time across all periods.
-- During the November 2017 demand surge, shipping time increased by over 2.5 days compared to the previous month, indicating that logistics operations were more affected by peak demand than seller fulfillment processes.
+- During the November 2017 demand surge, shipping duration increased from 8.0 days to 10.6 days, an increase of approximately 2.6 days, accounting for the majority of the deterioration in delivery performance.
 - Delivery performance improved substantially from April 2018 onward, driven primarily by reductions in shipping duration rather than changes in approval or fulfillment times.
 
 #### Average Review Score
