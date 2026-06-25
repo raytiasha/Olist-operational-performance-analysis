@@ -35,6 +35,8 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 ## Dataset Structure
 
+The Olist dataset consists of nine relational tables containing information on customers, orders, order items, products, sellers, payments, and customer reviews. This analysis focused on the **orders** and **order_reviews** tables, which provided the information required to evaluate demand trends, delivery performance, and customer satisfaction. Additional tables could support further analysis of seller, product, and payment-related factors, but were outside the scope of this project.
+
 <img width="1000" height="800" alt="ERD diagram" src= "https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/ERD.png"/>
 
 ## Insights Summary
