@@ -65,9 +65,9 @@ Based on these findings, operational improvement efforts should prioritize logis
 - Orders delayed by 8+ days received an average review score of only 1.71, less than half the score of on-time deliveries.
   
 ## Recommendations
-- **Further analysis using additional years of data is recommended to determine whether the November demand spike represents a recurring seasonal pattern.** Understanding seasonal peaks will help operations teams forecast demand and proactively allocate fulfillment and logistics resources.
-- **Strengthen logistics capacity planning during peak-demand periods and prioritize carrier performance improvements, as shipping was identified as the primary contributor to delivery delays.** Establishing performance monitoring for logistics partners and preparing for demand surges can help mitigate delivery disruptions.
-- **Reduce delivery delays as a core operational objective, as customer satisfaction declines significantly with increasing delay duration.** Particular focus should be placed on preventing delays exceeding four days, where customer ratings drop sharply and customer experience is most negatively affected.
+- **Improve Demand Forecasting and Peak-Season Planning.** Further analysis using additional years of data is recommended to determine whether the November demand spike represents a recurring seasonal pattern. Identifying seasonal demand peaks would enable more accurate forecasting and proactive allocation of fulfillment and logistics resources.
+- **Prioritize Logistics Performance During Demand Surges.** Strengthen logistics capacity planning and carrier performance management during peak-demand periods, as shipping was identified as the primary contributor to delivery delays. Monitoring logistics partner performance and preparing for demand surges can help reduce delivery disruptions and maintain service levels.
+- **Reduce Delivery Delays to Improve Customer Satisfaction.** Reducing delivery delays should be a key operational priority, as customer satisfaction declines significantly with increasing delay duration. Particular attention should be given to preventing delays exceeding 4 days, where customer ratings drop sharply and the customer experience is most negatively affected.
 
 ---
 
