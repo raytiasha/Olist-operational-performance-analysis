@@ -38,9 +38,9 @@ Based on these findings, operational improvement efforts should prioritize logis
 ## Insights Summary
 
 **In order to evaluate operational performance, we focused on the following key metrics:**
-- **Monthly Order Volume:** Tracks changes in demand over time and identifies periods of increased operational workload.
+- **Monthly Order Volume:** Measures demand trends and operational workload over time.
 - **Delivery Cycle Analysis:** Measures the efficiency and reliability of the end-to-end order fulfillment process, from order placement to delivery.
-- **Average Review Score:** Evaluates customer satisfaction and quantifies the impact of operational performance on customer experience.
+- **Average Review Score:** Measures customer satisfaction and quantifies the impact of operational performance on customer experience.
 
 #### Monthly Order Volume
 - Order demand increased significantly from 324 orders in October 2016 to a peak of 7,544 orders in November 2017.
