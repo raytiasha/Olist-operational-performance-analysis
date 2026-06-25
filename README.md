@@ -35,6 +35,8 @@ Based on these findings, operational improvement efforts should prioritize logis
 
 ## Dataset Structure
 
+https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/ERD.png
+
 ## Insights Summary
 
 **In order to evaluate operational performance, we focused on the following key metrics:**
