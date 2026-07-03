@@ -66,6 +66,8 @@ The Olist dataset consists of nine relational tables containing information on c
 - During the November 2017 demand surge, shipping duration increased from 8.0 days to 10.6 days, an increase of approximately 2.6 days, accounting for the majority of the deterioration in delivery performance.
 - Delivery performance improved substantially from April 2018 onward, driven primarily by reductions in shipping duration rather than changes in approval or fulfillment times.
 
+<img width="1000" height="800" alt="ERD diagram" src= "https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/fulfillment_bottleneck.png"/>
+
 #### Average Review Score
 - On-time deliveries received the highest customer satisfaction scores, averaging 4.29 out of 5.
 - Even short delays of 1–3 days reduced average review scores by approximately 23%, from 4.29 to 3.29.
