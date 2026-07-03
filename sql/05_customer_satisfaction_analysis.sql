@@ -17,7 +17,7 @@ WHERE o.order_status = 'delivered'
   AND o.order_estimated_delivery_date IS NOT NULL
 GROUP BY delivery_status;
 
---- 
+--- On-Time vs Delayed Deliveries grouped by bucket
 
 SELECT
     CASE
@@ -40,3 +40,56 @@ WHERE o.order_status = 'delivered'
   AND o.order_delivered_customer_date IS NOT NULL
   AND o.order_estimated_delivery_date IS NOT NULL
 GROUP BY delay_bucket;
+
+--- Average Delivery Delay (late orders only)
+
+SELECT
+    ROUND(
+        AVG(
+            DATEDIFF(
+                order_delivered_customer_date,
+                order_estimated_delivery_date
+            )
+        ),
+        2
+    ) AS avg_delivery_delay_days
+FROM orders
+WHERE order_delivered_customer_date IS NOT NULL
+  AND DATEDIFF(
+        order_delivered_customer_date,
+        order_estimated_delivery_date
+      ) > 0;
+
+--- Late Delivery Rate
+
+SELECT
+    ROUND(
+        SUM(
+            CASE
+                WHEN DATEDIFF(order_delivered_customer_date, order_estimated_delivery_date) > 0
+                THEN 1
+                ELSE 0
+            END
+        ) * 100.0 /
+        COUNT(*),
+        2
+    ) AS late_delivery_rate_percent
+FROM orders
+WHERE order_delivered_customer_date IS NOT NULL;
+
+--- On-Time Delivery Rate
+
+SELECT
+    ROUND(
+        SUM(
+            CASE
+                WHEN DATEDIFF(order_delivered_customer_date, order_estimated_delivery_date) <= 0
+                THEN 1
+                ELSE 0
+            END
+        ) * 100.0 /
+        COUNT(*),
+        2
+    ) AS on_time_delivery_rate_percent
+FROM orders
+WHERE order_delivered_customer_date IS NOT NULL;
