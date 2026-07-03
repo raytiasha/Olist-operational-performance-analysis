@@ -53,7 +53,7 @@ The Olist dataset consists of nine relational tables containing information on c
 - Demand remained relatively stable throughout most of 2018, averaging approximately 6,000–7,500 orders per month.
 - This trend suggests strong platform adoption and expansion during 2017, followed by a period of more consistent and mature demand levels in 2018.
 
-<img width="1000" height="800" alt="ERD diagram" src= https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/demand_vs_delivery.png"/>
+<img width="1000" height="800" alt="ERD diagram" src= "https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/demand_vs_delivery.png"/>
 
 #### Delivery Cycle Analysis
 - As order volume increased from 800 orders in January 2017 to 7,544 orders in November 2017, average delivery time remained relatively stable at approximately 11-13 days throughout most of 2017, indicating that operations generally scaled alongside increasing demand.
@@ -72,7 +72,7 @@ The Olist dataset consists of nine relational tables containing information on c
 - Customer satisfaction declines consistently as delivery delays become more severe, indicating a strong negative relationship between delivery performance and customer experience.
 - Orders delayed by 8+ days received an average review score of only 1.71, less than half the score of on-time deliveries.
 
-<img width="1000" height="800" alt="ERD diagram" src= https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/customer_satisfaction.png"/>
+<img width="1000" height="800" alt="ERD diagram" src= "https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Visualization/customer_satisfaction.png"/>
   
 ## Recommendations
 - **Improve Demand Forecasting and Peak-Season Planning.** Further analysis using additional years of data is recommended to determine whether the November demand spike represents a recurring seasonal pattern. Identifying seasonal demand peaks would enable more accurate forecasting and proactive allocation of fulfillment and logistics resources.
