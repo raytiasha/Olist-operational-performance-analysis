@@ -101,6 +101,7 @@ The Olist dataset consists of nine relational tables containing information on c
 ---
 
 - Read the full report [here](https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Olist%20Insights%20Report.pdf).
+- Read the full article [here](https://www.linkedin.com/pulse/building-e-commerce-operations-dashboard-sql-power-bi-tiasha-ray-ikc9c).
 - See my SQL queries [here](https://github.com/raytiasha/Olist-operational-performance-analysis/tree/main/sql).
 - View the source data [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and the table details [here](https://github.com/raytiasha/Olist-operational-performance-analysis/blob/main/Dataset.md).
 
